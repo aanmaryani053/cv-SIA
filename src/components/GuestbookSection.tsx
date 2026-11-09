@@ -68,7 +68,7 @@ export const GuestbookSection: React.FC = () => {
         {/* Section Header */}
         <div className="max-w-3xl mb-14">
           <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-[#1E4D40] mb-2">
-            <span>06. Buku Tamu & Jejaring</span>
+            <span>05. Buku Tamu & Jejaring</span>
             <span aria-hidden="true">·</span>
             <span>Networking & Greeting</span>
           </div>

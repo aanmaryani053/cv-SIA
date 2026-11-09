@@ -18,7 +18,7 @@ export const RoadmapSection: React.FC<RoadmapSectionProps> = ({ roadmap }) => {
         {/* Section Header */}
         <div className="max-w-3xl mb-14">
           <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-[#1E4D40] mb-2">
-            <span>04. Peta Perjalanan Akademik</span>
+            <span>03. Peta Perjalanan Akademik</span>
             <span aria-hidden="true">·</span>
             <span>4-Year Academic Vision</span>
           </div>

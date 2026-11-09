@@ -134,10 +134,10 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
                 </button>
 
                 <a
-                  href="#eksplorasi"
+                  href="#roadmap"
                   className="px-4 py-2.5 text-xs md:text-sm font-medium text-[#46554D] hover:text-[#162E26] hover:bg-black/5 rounded-lg transition-colors"
                 >
-                  Lihat Karya Mandiri
+                  Peta Rencana Kuliah
                 </a>
               </div>
             </div>

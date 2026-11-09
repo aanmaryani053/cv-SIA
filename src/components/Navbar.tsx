@@ -63,21 +63,7 @@ export const Navbar: React.FC<NavbarProps> = ({
           >
             Keahlian
           </a>
-          <a
-            href="#eksplorasi"
-            onClick={(e) => {
-              if (activeView !== 'portfolio') {
-                e.preventDefault();
-                setActiveView('portfolio');
-                setTimeout(() => {
-                  document.getElementById('eksplorasi')?.scrollIntoView({ behavior: 'smooth' });
-                }, 50);
-              }
-            }}
-            className="hover:text-[#162E26] hover:underline underline-offset-8 transition-colors whitespace-nowrap shrink-0"
-          >
-            Karya & Proyek
-          </a>
+
           <a
             href="#roadmap"
             onClick={(e) => {

@@ -25,7 +25,6 @@ export const Footer: React.FC<FooterProps> = ({ name }) => {
         <div className="flex items-center gap-6 text-xs text-[#526359]">
           <a href="#tentang" className="hover:text-[#162E26] transition-colors">Tentang</a>
           <a href="#keahlian" className="hover:text-[#162E26] transition-colors">Keahlian</a>
-          <a href="#eksplorasi" className="hover:text-[#162E26] transition-colors">Karya</a>
           <a href="#roadmap" className="hover:text-[#162E26] transition-colors">Peta Kuliah</a>
           <a href="#kontak" className="hover:text-[#162E26] transition-colors">Buku Tamu</a>
         </div>

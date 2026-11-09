@@ -4,14 +4,13 @@
  */
 
 import React, { useState, useEffect } from 'react';
-import { initialProfileData, initialSkills, initialProjects, studyRoadmap } from './data/defaultProfile';
+import { initialProfileData, initialSkills, studyRoadmap } from './data/defaultProfile';
 import { ProfileData } from './types/portfolio';
 import { Navbar } from './components/Navbar';
 import { HeroSection } from './components/HeroSection';
 import { IntroCardView } from './components/IntroCardView';
 import { AboutSection } from './components/AboutSection';
 import { SkillsSection } from './components/SkillsSection';
-import { ProjectsSection } from './components/ProjectsSection';
 import { RoadmapSection } from './components/RoadmapSection';
 import { InteractiveTrivia } from './components/InteractiveTrivia';
 import { GuestbookSection } from './components/GuestbookSection';
@@ -102,10 +101,7 @@ export default function App() {
             {/* 3. Skills & Learning Journey */}
             <SkillsSection skills={initialSkills} />
 
-            {/* 4. Showcase & Mini Projects */}
-            <ProjectsSection projects={initialProjects} />
-
-            {/* 5. 4-Year Academic & Career Roadmap */}
+            {/* 4. 4-Year Academic & Career Roadmap */}
             <RoadmapSection roadmap={studyRoadmap} />
 
             {/* 6. Interactive Personal Trivia */}

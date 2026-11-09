@@ -15,7 +15,7 @@ export const InteractiveTrivia: React.FC = () => {
         
         <div className="max-w-2xl mb-10">
           <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-[#1E4D40] mb-2">
-            <span>05. Trivia & Sudut Personal</span>
+            <span>04. Trivia & Sudut Personal</span>
             <span aria-hidden="true">·</span>
             <span>Fast Facts</span>
           </div>
